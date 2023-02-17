@@ -29,3 +29,10 @@ create .gitignore file and add *.txt to ignore tracking that file
 so Now the change wont be no more visible in git status
 you can add filename or path also in that .gitignore file which has to be ignored from tracking
 
+
+
+
+git branch 
+to show list of branches
+
+git checkout branchname to switch branch
