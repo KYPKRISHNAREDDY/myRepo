@@ -14,3 +14,6 @@ git log --oneline shows only msgs during committing
 git log --stat to show file names which got changed
 git show commitId shows changes made in that particular Commit
 
+
+git add filename to track changes in file
+git commit to bring it to repository from staging area
