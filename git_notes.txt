@@ -17,3 +17,8 @@ git show commitId shows changes made in that particular Commit
 
 git add filename to track changes in file
 git commit to bring it to repository from staging area
+
+
+commit head moves to latest commit
+git diff to see changes made
+git restore file.txt to restore the file to the prev version at head 
