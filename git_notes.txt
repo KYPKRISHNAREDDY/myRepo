@@ -1,0 +1,16 @@
+git config --global .name ""
+
+git status
+git init
+git clone
+git diff to see the changes made to old file
+
+Working Directory(Temp changes)-> Staging Index(Added) -> Repository(Committed)
+
+git log details about latest to old commits
+git log -3  latest 3 commits
+git log -p shows diff also(Changes done will be shown)
+git log --oneline shows only msgs during committing
+git log --stat to show file names which got changed
+git show commitId shows changes made in that particular Commit
+
