@@ -22,3 +22,9 @@ git commit to bring it to repository from staging area
 commit head moves to latest commit
 git diff to see changes made
 git restore file.txt to restore the file to the prev version at head 
+
+
+to not track some files
+create .gitignore file and add *.txt to ignore tracking that file
+so Now the change wont be no more visible in git status
+
