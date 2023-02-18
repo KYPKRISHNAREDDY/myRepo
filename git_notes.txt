@@ -46,7 +46,16 @@ and then you will add these changes to staging area and commit in master branch
 
 Tagging
 git tag -a Name MasterCommitID -m"MEssage"
+To delete dag
+git tag -d tagName
 
 Add and commit at same time :
 git commit -am "Message"
 
+
+git stash when your friend and you working on the same file making same line changes 
+So you'll be storing it in Stash Area before pulling it
+git stash list -> to see git stash list
+Now you can pull the latest file into your local repo
+then git stash apply to apply your changes
+and resolve manually then commit the changes
