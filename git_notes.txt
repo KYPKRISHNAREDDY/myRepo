@@ -75,3 +75,14 @@ git reset --soft  : changes will be shown as staged ,Using this is safe
 	    --hard : all the local changes discarded after moving back to another commit
 
 git commit --amend : can change the message of last commit
+
+
+
+pushing to Github
+1.Create EMpty Repo	
+2.Local Sys 
+	git config --global user.name"Krishna"
+	git config --global user.email"kypkrishna777@gmail.com"
+3.git push -u origin master
+	username? -> KYPKRISHNAREDDY
+	password? -> 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
