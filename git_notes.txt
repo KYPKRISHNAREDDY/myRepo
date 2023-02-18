@@ -40,6 +40,6 @@ and use git merge branch_name
 and delete old branch using git branch -d branch_name
 
 
-git branch notes 2 for testing feature
-
+to merge 2nd branch to master there'll be conflicts,so you will manually edit those changes after merging 
+and then you will add these changes to staging area and commit in master branch
 
