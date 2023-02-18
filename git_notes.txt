@@ -43,3 +43,10 @@ and delete old branch using git branch -d branch_name
 to merge 2nd branch to master there'll be conflicts,so you will manually edit those changes after merging 
 and then you will add these changes to staging area and commit in master branch
 
+
+Tagging
+git tag -a Name MasterCommitID -m"MEssage"
+
+Add and commit at same time :
+git commit -am "Message"
+
