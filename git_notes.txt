@@ -59,3 +59,17 @@ git stash list -> to see git stash list
 Now you can pull the latest file into your local repo
 then git stash apply to apply your changes
 and resolve manually then commit the changes
+
+
+Undo Commit
+git revert commitId
+then esc->:->wq
+commit will be reverted back
+These will be shown in the git log
+
+Git Reset
+to Not show them in history : git reset --soft commitID
+
+git reset --soft  : changes will be shown as staged ,Using this is safe
+	    --mixed : all changes will be shown as modifications and will move back to that another commit
+	    --hard : all the local changes discarded after moving back to another commit
