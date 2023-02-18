@@ -36,3 +36,7 @@ git branch
 to show list of branches
 
 git checkout branchname to switch branch
+and do the required changes and once final code is ready
+you can merge it to master branch .So change it to master Branch
+and use git merge branch_name
+and delete old branch using git branch -d branch_name
