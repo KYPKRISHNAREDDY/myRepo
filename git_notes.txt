@@ -73,3 +73,5 @@ to Not show them in history : git reset --soft commitID
 git reset --soft  : changes will be shown as staged ,Using this is safe
 	    --mixed : all changes will be shown as modifications and will move back to that another commit
 	    --hard : all the local changes discarded after moving back to another commit
+
+git commit --amend : can change the message of last commit
