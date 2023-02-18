@@ -30,8 +30,6 @@ so Now the change wont be no more visible in git status
 you can add filename or path also in that .gitignore file which has to be ignored from tracking
 
 
-
-
 git branch 
 to show list of branches
 
@@ -40,3 +38,8 @@ and do the required changes and once final code is ready
 you can merge it to master branch .So change it to master Branch
 and use git merge branch_name
 and delete old branch using git branch -d branch_name
+
+
+git branch notes 2 for testing feature
+
+
